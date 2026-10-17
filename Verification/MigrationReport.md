@@ -4,6 +4,8 @@
 
 The baseline was built from commit `b33d42eebfa6415939ee646837d5218eac58a48c`, in both Debug and Release, before removing the Visual Basic implementation. Existing checked-in binaries were not used as the reference.
 
+For GitHub publication, commit `5eb0f44` preserves that baseline's source and assets while excluding only `bin`, `obj`, and `.vs` artifacts. The original commit contains binaries exceeding GitHub's file limit and remains preserved locally on `codex/original-vb-local`. The published C# conversion follows the source-only baseline, so the original implementation remains recoverable from Git history.
+
 All 26 forms and their designers were converted to C#. The application remains WinForms on .NET Framework 4.8.1 with the same namespace, assembly name/version, layouts, text, embedded assets, question-file format, and host/player flow. The C# executable has no direct Microsoft.VisualBasic assembly reference.
 
 The replacement explicitly implements lazy form instances and recreation after disposal, all-forms-close application lifetime, shared audio playback, and midpoint-to-even numeric conversion. The unused empty settings definition was removed. A resource that referenced a personal OneDrive directory was copied into the repository so builds are self-contained.
