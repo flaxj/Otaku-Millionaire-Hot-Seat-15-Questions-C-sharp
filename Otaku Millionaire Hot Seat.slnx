@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="ARM" />
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Otaku Millionaire Hot Seat/Otaku Millionaire Hot Seat.vbproj" Id="f61c40af-ed29-4569-9bd9-67079a3b960d" />
+</Solution>
