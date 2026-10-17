@@ -1,0 +1,21 @@
+{
+  "framework": ".NET Framework 4.8.1",
+  "cleanDebugSolutionBuild": "passed",
+  "cleanReleaseBuild": "passed",
+  "postRemovalChecks": {
+    "core": 478,
+    "extended": 49,
+    "imports": 1,
+    "edges": 112,
+    "standaloneStartupAndShutdown": 1,
+    "total": 641
+  },
+  "allFourBaselineComparisons": "exact match",
+  "directVisualBasicRuntimeDependency": false,
+  "physicalDisplaysAvailable": 1,
+  "physicalSecondDisplayTested": false,
+  "buildWarnings": [
+    "CS0414: Q15.topAmount is assigned but never used",
+    "CS0414: Q15.DDEnable is assigned but never used"
+  ]
+}

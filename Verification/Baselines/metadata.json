@@ -1,0 +1,30 @@
+{
+  "baseline_commit": "b33d42eebfa6415939ee646837d5218eac58a48c",
+  "framework": ".NETFramework,Version=v4.8.1",
+  "suites": {
+    "core": {
+      "checkpoints": 467,
+      "bytes": 6835351,
+      "sha256": "3a8881976aaa06e2e6d7789d8f5ea39d2994ad93468a9a49c02e83291d86c702",
+      "parity": "exact"
+    },
+    "extended": {
+      "checkpoints": 29,
+      "bytes": 399540,
+      "sha256": "98d6239d4dd173d2cf5cc519af9f96744219e9abe1854596da04972295a0097e",
+      "parity": "exact"
+    },
+    "imports": {
+      "checkpoints": 1,
+      "bytes": 11284,
+      "sha256": "9731c7446cf34e98718aa6ee3fb100723c43bfcdf058768d225ad12470bf6369",
+      "parity": "exact"
+    },
+    "edges": {
+      "checkpoints": 112,
+      "bytes": 1687315,
+      "sha256": "63b014f876b9ff46deeadd0519b32d44711a23a14a93b97840445b8b296ab5f4",
+      "parity": "exact"
+    }
+  }
+}

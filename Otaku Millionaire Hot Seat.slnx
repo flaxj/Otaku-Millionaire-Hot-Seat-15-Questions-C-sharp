@@ -6,5 +6,6 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Otaku Millionaire Hot Seat/Otaku Millionaire Hot Seat.vbproj" Id="f61c40af-ed29-4569-9bd9-67079a3b960d" />
+  <Project Path="Otaku Millionaire Hot Seat/Otaku Millionaire Hot Seat.csproj" Id="afcedced-bc6f-4a46-8de9-04f8413d48e7" />
+  <Project Path="Verification/Verification.csproj" Id="82601f9f-ef64-4f24-b59b-13183b304917" />
 </Solution>
